@@ -40,8 +40,6 @@ let g:CommandTFileScanner = 'watchman'
 " CommandT map to CTRL P... because I'm used to typing that for file search
 :nmap <C-P> :CommandT<cr>
 
-" CommandT ESC file search
-let g:CommandTCancelMap = ['<ESC>', '<C-c>']
 
 
 " Tab auto-completion
