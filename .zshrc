@@ -98,3 +98,15 @@ alias g='git'
 alias gco='git checkout'
 alias gpo='git pull origin'
 alias be='bundle exec'
+
+# NVM Stuff
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
+
+[[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
+
+PROMPT=$PROMPT'[%D{%r}] $ '
+#mm/dd/yy %D{%m/%f/%y} 

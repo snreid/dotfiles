@@ -34,13 +34,11 @@ set number
 set runtimepath^=~/.vim/bundle/ag
 set hlsearch
 
-" CommandT faster file scanner
-let g:CommandTFileScanner = 'watchman'
+" FZF to CTRL P... because I'm used to typing that for file search
+:nmap <C-P> :FZF<cr>
 
-" CommandT map to CTRL P... because I'm used to typing that for file search
-:nmap <C-P> :CommandT<cr>
-
-
+" FZF installed via Homebrew
+set rtp+=/usr/local/opt/fzf
 
 " Tab auto-completion
 " will insert tab at beginning of line,
@@ -55,3 +53,5 @@ function! InsertTabWrapper()
     endif
 endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
+
+:set directory=$HOME/.vim/swapfiles//
