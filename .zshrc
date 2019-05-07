@@ -109,4 +109,4 @@ export FZF_DEFAULT_OPS="--extended"
 [[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
 
 PROMPT=$PROMPT'[%D{%r}] $ '
-#mm/dd/yy %D{%m/%f/%y} 
+

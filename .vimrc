@@ -15,7 +15,8 @@ filetype plugin indent on
   "   block)
   " vim-ruby (ruby syntax highlighting)
   " vim-slim (slim syntax highlighting)
-
+set ignorecase smartcase
+set incsearch
 " Set Leader key
 let mapleader = ","
 
@@ -24,6 +25,7 @@ map <leader>n :NERDTreeToggle<cr>
 
 " Buffkill plugin shortcut
 map <leader>d :BD<cr>
+map <leader>/ :noh<cr>
 
 "Custom shortcuts
 map <Tab> :bnext<cr>
