@@ -98,6 +98,8 @@ alias g='git'
 alias gco='git checkout'
 alias gpo='git pull origin'
 alias be='bundle exec'
+alias dd='dox-do'
+alias ddbe='dox-do bundle exec'
 
 # NVM Stuff
 export NVM_DIR="$HOME/.nvm"
