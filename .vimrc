@@ -6,15 +6,15 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 filetype plugin indent on
 
 " PLUGINS USED
-  " nerdtree (traverse the dir tree)
-  " nerdcommenter (for commenting/uncommenting lines with ease)
-  " buffkill (deletes buffers when I don't need them open anymore)
+  " nerdtree (traverse the dir tree) https://github.com/preservim/nerdtree
+  " nerdcommenter (for commenting/uncommenting lines with ease) https://github.com/preservim/nerdcommenter
+  " buffkill (deletes buffers when I don't need them open anymore) https://github.com/qpkorr/vim-bufkill
   " command-t (file searcher)
-  " ag (text search within repo)
+  " ag (text search within repo) https://github.com/ggreer/the_silver_searcher
   " vim-endwise (adds `end` to new method/if/do and inserts you inside the
-  "   block)
-  " vim-ruby (ruby syntax highlighting)
-  " vim-slim (slim syntax highlighting)
+  "   block) https://github.com/tpope/vim-endwise
+  " vim-ruby (ruby syntax highlighting) https://github.com/vim-ruby/vim-ruby/blob/master/INSTALL.markdown
+  " vim-slim (slim syntax highlighting) https://github.com/slim-template/vim-slim
 set ignorecase smartcase
 set incsearch
 " Set Leader key
