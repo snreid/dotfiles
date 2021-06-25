@@ -56,4 +56,5 @@ function! InsertTabWrapper()
 endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
+" Create a ~/.vim/swapfiles directory, doesn't come out of the box.
 :set directory=$HOME/.vim/swapfiles//

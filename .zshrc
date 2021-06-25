@@ -95,6 +95,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(rbenv init -)"
 
 alias g='git'
+alias gst='git status'
 alias gco='git checkout'
 alias gpo='git pull origin'
 alias be='bundle exec'
