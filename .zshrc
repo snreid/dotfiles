@@ -112,9 +112,4 @@ export FZF_DEFAULT_OPS="--extended"
 [[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
 
 
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-setopt prompt_subst
-PROMPT=$PROMPT"[%D{%r}] %/ \$vcs_info_msg_0_ $"
-zstyle ':vcs_info:git:*' formats '(%b)'
+PROMPT=$PROMPT"[%D{%r}] $ "
